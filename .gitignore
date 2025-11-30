@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# PEP 582; used by some Python packaging tools
+__pypackages__/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+coverage.xml
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# SQLite
+*.sqlite3
+
+# Local runtime / build artifacts
+runtime/
+local_data/
+
+# dotenv / secrets
+.env.local
+.env.*.local
+.env

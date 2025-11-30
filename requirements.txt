@@ -1,0 +1,25 @@
+# ---- Framework Core ----
+# The basic logic, runnables, and standard interfaces
+langchain-core
+
+# --- Community Integrations ---
+# Contains the PDF loaders and third-party tools
+langchain-community
+
+# --- The Main Orchestrator ---
+langchain
+
+# --- LLM Provider ---
+# Specific integration for OpenAI (Standard for learning)
+langchain-openai
+
+# --- UI Framework ---
+streamlit
+
+# --- Utilities ---
+# For loading environment variables (.env file)
+python-dotenv
+# Required by LangChain to read PDF files
+pypdf
+# Fast encoding for token counting (often required by OpenAI wrappers)
+tiktoken
